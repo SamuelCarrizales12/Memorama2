@@ -1,0 +1,61 @@
+[gd_scene format=3 uid="uid://dooptfhyjptqv"]
+
+[ext_resource type="Script" uid="uid://cfx08lpnow31c" path="res://inicio.gd" id="1_ylum6"]
+[ext_resource type="Texture2D" uid="uid://c8lvawc7auq21" path="res://4a744e41b1db6fd04c1489f6620454f7.jpg" id="2_q0xg8"]
+[ext_resource type="Texture2D" uid="uid://cnbgxhihjhvu2" path="res://Memorama.png" id="3_yogrx"]
+
+[node name="Inicio" type="Control" unique_id=1456136611]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("1_ylum6")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1161192975]
+custom_minimum_size = Vector2(1080, 0)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_q0xg8")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="TextureRect" type="TextureRect" parent="TextureRect" unique_id=1026980744]
+layout_mode = 0
+offset_left = 56.0
+offset_top = -183.0
+offset_right = 1080.0
+offset_bottom = 585.0
+texture = ExtResource("3_yogrx")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=560131611]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -4.0
+offset_top = -23.5
+offset_right = 4.0
+offset_bottom = 23.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="BotonJugar" type="Button" parent="VBoxContainer" unique_id=69939820]
+custom_minimum_size = Vector2(200, 50)
+layout_mode = 2
+text = "Inicio"
+
+[node name="BotonSalir" type="Button" parent="VBoxContainer" unique_id=324694212]
+custom_minimum_size = Vector2(200, 50)
+layout_mode = 2
+text = "Salir
+"

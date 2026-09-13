@@ -1,0 +1,183 @@
+[gd_scene format=3 uid="uid://c5ymlqhho4qet"]
+
+[ext_resource type="PackedScene" uid="uid://cjb4oakapo8c4" path="res://carta.tscn" id="1_adh7g"]
+[ext_resource type="Script" uid="uid://cqam7rtin8qlf" path="res://tablero.gd" id="1_laj61"]
+[ext_resource type="Texture2D" uid="uid://mnlf2mb5m85l" path="res://Cartas de Lotería Mexicana del 1 al 54 [GRATIS]/2 el diablito-min.jpg" id="2_laj61"]
+[ext_resource type="Texture2D" uid="uid://dq1ejqpau52e3" path="res://Cartas de Lotería Mexicana del 1 al 54 [GRATIS]/1 el gallo-min.jpg" id="2_wmdfq"]
+[ext_resource type="Texture2D" uid="uid://c0hb4g7c6dq42" path="res://Cartas de Lotería Mexicana del 1 al 54 [GRATIS]/3 la dama-min.jpg" id="4_60wgg"]
+[ext_resource type="Texture2D" uid="uid://b2j2131nybm4p" path="res://Cartas de Lotería Mexicana del 1 al 54 [GRATIS]/4 el catrin-min.jpg" id="5_o1v3q"]
+[ext_resource type="Texture2D" uid="uid://x2jljd7kn5x8" path="res://Cartas de Lotería Mexicana del 1 al 54 [GRATIS]/5 el paraguas-min.jpg" id="6_qc316"]
+[ext_resource type="Texture2D" uid="uid://bfvd7fonwjlsv" path="res://Cartas de Lotería Mexicana del 1 al 54 [GRATIS]/6-la-sirena-min.jpg" id="7_0ywr6"]
+[ext_resource type="Texture2D" uid="uid://btvhf2v0aiiyd" path="res://Cartas de Lotería Mexicana del 1 al 54 [GRATIS]/7 la escalera-min.jpg" id="8_myxt1"]
+[ext_resource type="Texture2D" uid="uid://i80h7ook1vo0" path="res://Cartas de Lotería Mexicana del 1 al 54 [GRATIS]/8 la botella-min.jpg" id="9_sr2od"]
+[ext_resource type="Texture2D" uid="uid://dsvhnxm7kwmt3" path="res://Cartas de Lotería Mexicana del 1 al 54 [GRATIS]/9 barril-min.jpg" id="10_bqm22"]
+[ext_resource type="Texture2D" uid="uid://bwhafvdjkoody" path="res://Cartas de Lotería Mexicana del 1 al 54 [GRATIS]/10 arbol-min.jpg" id="11_ml53n"]
+[ext_resource type="Texture2D" uid="uid://825m5rtjhvmh" path="res://Cartas de Lotería Mexicana del 1 al 54 [GRATIS]/11 melon-min.jpg" id="12_ecv72"]
+[ext_resource type="Texture2D" uid="uid://dfst4q7d4otq5" path="res://Cartas de Lotería Mexicana del 1 al 54 [GRATIS]/12 el valiente-min.jpg" id="13_a25hx"]
+[ext_resource type="Texture2D" uid="uid://b7pkxq1ppxnns" path="res://Cartas de Lotería Mexicana del 1 al 54 [GRATIS]/13 el gorrito-min.jpg" id="14_cmito"]
+[ext_resource type="Texture2D" uid="uid://bwlhjt6pa75ur" path="res://Cartas de Lotería Mexicana del 1 al 54 [GRATIS]/14 la muerte-min.jpg" id="15_x5d80"]
+[ext_resource type="Texture2D" uid="uid://b2gsn4fuwl58g" path="res://Cartas de Lotería Mexicana del 1 al 54 [GRATIS]/15 la pera-min.jpg" id="16_w80ra"]
+[ext_resource type="Texture2D" uid="uid://dgr0csvydno86" path="res://Cartas de Lotería Mexicana del 1 al 54 [GRATIS]/16 la bandera-min.jpg" id="17_6s1n1"]
+[ext_resource type="Texture2D" uid="uid://cpp0rkxrklgvr" path="res://Cartas de Lotería Mexicana del 1 al 54 [GRATIS]/17 el bandolon-min.jpg" id="18_g6oo3"]
+[ext_resource type="Texture2D" uid="uid://dsm7lw54a41e4" path="res://Cartas de Lotería Mexicana del 1 al 54 [GRATIS]/18 el violoncello-min.jpg" id="19_rfcng"]
+[ext_resource type="Texture2D" uid="uid://bd07jj2odl60p" path="res://Cartas de Lotería Mexicana del 1 al 54 [GRATIS]/19 la garza-min.jpg" id="20_h3fy8"]
+[ext_resource type="Texture2D" uid="uid://ybpa6u2xjn2q" path="res://Cartas de Lotería Mexicana del 1 al 54 [GRATIS]/20 el pajaro-min.jpg" id="21_q5lck"]
+[ext_resource type="Texture2D" uid="uid://djyjog80jpn0y" path="res://Cartas de Lotería Mexicana del 1 al 54 [GRATIS]/21 la mano-min.jpg" id="22_wyre2"]
+[ext_resource type="Texture2D" uid="uid://dfqgkqge11bmr" path="res://Cartas de Lotería Mexicana del 1 al 54 [GRATIS]/22 la bota-min.jpg" id="23_xhqc4"]
+[ext_resource type="Texture2D" uid="uid://b22f733qeo2aj" path="res://Cartas de Lotería Mexicana del 1 al 54 [GRATIS]/23 la luna-min.jpg" id="24_alol0"]
+[ext_resource type="Texture2D" uid="uid://bnkftdsf7my3e" path="res://Cartas de Lotería Mexicana del 1 al 54 [GRATIS]/24 el cotorro-min.jpg" id="25_o8tly"]
+[ext_resource type="Texture2D" uid="uid://dggc8nr4vcavb" path="res://Cartas de Lotería Mexicana del 1 al 54 [GRATIS]/25 el borracho-min.jpg" id="26_5w47f"]
+[ext_resource type="Texture2D" uid="uid://bftim68gvijcj" path="res://Cartas de Lotería Mexicana del 1 al 54 [GRATIS]/26 el negrito-min.jpg" id="27_pqra0"]
+[ext_resource type="Texture2D" uid="uid://dei4v4bctp4k5" path="res://Cartas de Lotería Mexicana del 1 al 54 [GRATIS]/27 el corazon-min.jpg" id="28_t75ab"]
+[ext_resource type="Texture2D" uid="uid://cfah8dhgt8yxi" path="res://Cartas de Lotería Mexicana del 1 al 54 [GRATIS]/28 la sandia-min.jpg" id="29_ahnwt"]
+[ext_resource type="Texture2D" uid="uid://crdyqke351lqj" path="res://Cartas de Lotería Mexicana del 1 al 54 [GRATIS]/29 el tambor-min.jpg" id="30_yhmnt"]
+[ext_resource type="Texture2D" uid="uid://ci4lm7rys42o6" path="res://Cartas de Lotería Mexicana del 1 al 54 [GRATIS]/30 el camaron-min.jpg" id="31_307my"]
+[ext_resource type="Texture2D" uid="uid://br6y4clulwrr5" path="res://Cartas de Lotería Mexicana del 1 al 54 [GRATIS]/31 las jaras-min.jpg" id="32_l3ojr"]
+[ext_resource type="Texture2D" uid="uid://c6m43nnbuvdjp" path="res://Cartas de Lotería Mexicana del 1 al 54 [GRATIS]/32 el musico-min.jpg" id="33_bqm22"]
+[ext_resource type="Texture2D" uid="uid://db6ojmlmicfmw" path="res://textura-tela-rayas-tradicional-mexicana-fondo_269655-35724.jpg" id="34_ml53n"]
+
+[node name="Tablero" type="Control" unique_id=2112148215]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("1_laj61")
+imagenes_disponibles = Array[Texture2D]([ExtResource("2_wmdfq"), ExtResource("2_laj61"), ExtResource("4_60wgg"), ExtResource("5_o1v3q"), ExtResource("6_qc316"), ExtResource("7_0ywr6"), ExtResource("8_myxt1"), ExtResource("9_sr2od"), ExtResource("10_bqm22"), ExtResource("11_ml53n"), ExtResource("12_ecv72"), ExtResource("13_a25hx"), ExtResource("14_cmito"), ExtResource("15_x5d80"), ExtResource("16_w80ra"), ExtResource("17_6s1n1"), ExtResource("18_g6oo3"), ExtResource("19_rfcng"), ExtResource("20_h3fy8"), ExtResource("21_q5lck"), ExtResource("22_wyre2"), ExtResource("23_xhqc4"), ExtResource("24_alol0"), ExtResource("25_o8tly"), ExtResource("26_5w47f"), ExtResource("27_pqra0"), ExtResource("28_t75ab"), ExtResource("29_ahnwt"), ExtResource("30_yhmnt"), ExtResource("31_307my"), ExtResource("32_l3ojr"), ExtResource("33_bqm22")])
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=2067810239]
+custom_minimum_size = Vector2(1160, 200)
+layout_mode = 0
+offset_right = 492.0
+layout_direction = 4
+texture = ExtResource("34_ml53n")
+expand_mode = 5
+
+[node name="LabelIntentos" type="Label" parent="." unique_id=1380713702]
+layout_mode = 0
+offset_top = 4.0
+offset_right = 492.0
+offset_bottom = 27.0
+justification_flags = 162
+
+[node name="CenterContainer" type="CenterContainer" parent="." unique_id=2050529441]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -246.0
+offset_top = -274.0
+offset_right = 246.0
+offset_bottom = 274.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="GridContainer" type="GridContainer" parent="CenterContainer" unique_id=2025422422]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+offset_transform_enabled = true
+columns = 4
+
+[node name="Carta" parent="CenterContainer/GridContainer" unique_id=1832893774 instance=ExtResource("1_adh7g")]
+layout_mode = 2
+
+[node name="Carta2" parent="CenterContainer/GridContainer" unique_id=1798057821 instance=ExtResource("1_adh7g")]
+layout_mode = 2
+
+[node name="Carta3" parent="CenterContainer/GridContainer" unique_id=23818093 instance=ExtResource("1_adh7g")]
+layout_mode = 2
+
+[node name="Carta4" parent="CenterContainer/GridContainer" unique_id=392910460 instance=ExtResource("1_adh7g")]
+layout_mode = 2
+
+[node name="Carta5" parent="CenterContainer/GridContainer" unique_id=1743125739 instance=ExtResource("1_adh7g")]
+layout_mode = 2
+
+[node name="Carta6" parent="CenterContainer/GridContainer" unique_id=550173500 instance=ExtResource("1_adh7g")]
+layout_mode = 2
+
+[node name="Carta7" parent="CenterContainer/GridContainer" unique_id=679862810 instance=ExtResource("1_adh7g")]
+layout_mode = 2
+
+[node name="Carta8" parent="CenterContainer/GridContainer" unique_id=1513478023 instance=ExtResource("1_adh7g")]
+layout_mode = 2
+
+[node name="Carta9" parent="CenterContainer/GridContainer" unique_id=1286013093 instance=ExtResource("1_adh7g")]
+layout_mode = 2
+
+[node name="Carta10" parent="CenterContainer/GridContainer" unique_id=1766184008 instance=ExtResource("1_adh7g")]
+layout_mode = 2
+
+[node name="Carta11" parent="CenterContainer/GridContainer" unique_id=1250408163 instance=ExtResource("1_adh7g")]
+layout_mode = 2
+
+[node name="Carta12" parent="CenterContainer/GridContainer" unique_id=873292575 instance=ExtResource("1_adh7g")]
+layout_mode = 2
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=194917217]
+
+[node name="PantallaVictoria" type="Panel" parent="CanvasLayer" unique_id=18618896]
+visible = false
+custom_minimum_size = Vector2(200, 50)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -200.0
+offset_top = -125.0
+offset_right = 200.0
+offset_bottom = 125.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+size_flags_stretch_ratio = 0.0
+
+[node name="LabelMensaje" type="Label" parent="CanvasLayer/PantallaVictoria" unique_id=67907146]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -51.5
+offset_right = 51.5
+offset_bottom = 23.0
+grow_horizontal = 2
+text = "¡Has Ganado!"
+
+[node name="BotonReiniciar" type="Button" parent="CanvasLayer/PantallaVictoria" unique_id=361768988]
+custom_minimum_size = Vector2(100, 45)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -62.0
+offset_top = -22.5
+offset_right = 62.0
+offset_bottom = 22.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "Jugar de nuevo"
+
+[node name="BotonSalir2" type="Button" parent="CanvasLayer/PantallaVictoria" unique_id=796954139]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -21.0
+offset_top = -31.0
+offset_right = 21.0
+grow_horizontal = 2
+grow_vertical = 0
+text = "Salir
+"

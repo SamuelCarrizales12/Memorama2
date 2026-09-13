@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://cjb4oakapo8c4"]
+
+[ext_resource type="Script" uid="uid://bjoqfirdwyq6n" path="res://carta.gd" id="1_nqtiw"]
+[ext_resource type="Texture2D" uid="uid://dxcd27dumkk8p" path="res://Parte de atras.jpg" id="3_77s45"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_3b2al"]
+size = Vector2(100, 150)
+
+[node name="Carta" type="TextureButton" unique_id=1832893774]
+custom_minimum_size = Vector2(120, 180)
+offset_right = 40.0
+offset_bottom = 40.0
+texture_normal = SubResource("PlaceholderTexture2D_3b2al")
+stretch_mode = 5
+script = ExtResource("1_nqtiw")
+imagen_reverso = ExtResource("3_77s45")
+
+[connection signal="pressed" from="." to="." method="_on_pressed"]
